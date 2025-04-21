@@ -1,7 +1,7 @@
 
 import os
 from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel, tool
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 # agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=HfApiModel(model_id="Qwen/Qwen2.5-Coder-32B-Instruct"))
 
 # agent.run("Search for the best music recommendations for a party at the Wayne's mansion.")
