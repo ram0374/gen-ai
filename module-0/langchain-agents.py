@@ -4,7 +4,7 @@ import os
 # from getpass import getpass
 # OPENAI_API_KEY = getpass()
 # Set API keys
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-proj--fQnuUJZ7E8jT3BlbkFJXsS_-66RYdBzRtF_war-Tj0I48kpAsbFu_zPxFgucgOGERa9L7VMtXpM0oTJwHcuyD7QeNadcA"
 os.environ["SERPAPI_API_KEY"] = "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"
 
 from langchain import OpenAI

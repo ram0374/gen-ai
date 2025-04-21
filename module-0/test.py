@@ -5,9 +5,8 @@ from transformers import BitsAndBytesConfig
 from openai import OpenAI
 # from llama_index.llms.huggingface import HuggingFaceLLM 
 # from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
-#Shresta : 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
 client = OpenAI(
-  api_key="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"
+  api_key=""
 )
 def multiply(a: int, b: int) -> int:
     """Multiply a and b.
